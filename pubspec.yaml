@@ -1,0 +1,6 @@
+name: google_api_common
+version: 0.0.1
+description: Libraries shared between client libraries for Google APIs.
+author: Sam McCall <sammccall@google.com>
+homepage: http://code.google.com/p/google-api-dart-client/
+
