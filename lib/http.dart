@@ -22,7 +22,7 @@ interface Authenticator {
    * Adds credentials to an [Request].
    * This method may mutate [request] and return it, or return a new Request.
    */
-  Future<Request> authenticate(HttpRequest request);
+  Future<Request> authenticate(Request request);
 }
 
 /** A simple HTTP client request, wrapping html.HttpRequest. */

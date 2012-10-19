@@ -434,7 +434,7 @@ class AuthException implements Exception {
 }
 
 /// Opens a popup centered on the screen displaying the provided URL.
-Window _popup(String url) {
+html.Window _popup(String url) {
   // Popup is desigend for 650x600, but don't make one bigger than the screen!
   int width = min(650, html.window.screen.width - 20);
   int height = min(600, html.window.screen.height - 30);
